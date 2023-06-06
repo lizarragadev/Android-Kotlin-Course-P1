@@ -9,6 +9,12 @@ val y = 6
 // var se reservan 2 espacios de memoria
 // val se reserva 1 espacio de memoria
 fun main() {
-    val suma = x + y
-    println(suma)
+    var resultado = x.plus(y)
+    println("La suma es: $resultado")
+    resultado = x.minus(y)
+    println("La resta es: $resultado")
+    resultado = x.times(y)
+    println("La multiplicación es: $resultado")
+    resultado = x.div(y)
+    println("La división es: $resultado")
 }
