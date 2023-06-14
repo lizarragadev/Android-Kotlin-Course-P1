@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">_04_InterfazUsuarioFormulario</string>
+    <string name="titulo">REGISTRO</string>
+    <string name="nombre">Ingrese Nombre</string>
+    <string name="apellidos">Ingrese Apellidos</string>
+    <string name="email">Ingrese Correo electrónico</string>
+    <string name="usuario">Ingrese Usuario</string>
+    <string name="password">Ingrese Contraseña</string>
+    <string name="carnet">Ingrese C.I.</string>
+    <string name="telefono">Ingrese Teléfono</string>
+</resources>
