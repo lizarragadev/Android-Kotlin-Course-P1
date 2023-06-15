@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/backg"
+        android:scaleType="centerCrop"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2196F3"
+        android:alpha="0.5"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="40dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mi App"
+                android:textColor="#FFF"
+                android:textSize="40sp"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RED SOCIAL"
+                android:textColor="#FFF"
+                android:textSize="23sp"
+                android:gravity="center_horizontal"/>
+            <View
+                android:layout_width="60dp"
+                android:layout_height="5dp"
+                android:background="#FFF"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="#FFF"
+                android:hint="Nombre Completo"
+                android:textColorHint="#FFF"
+                android:textColor="#FFF"
+                android:inputType="textCapWords"
+                android:drawableStart="@drawable/person"
+                android:drawableTint="#FFF"
+                android:drawablePadding="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
