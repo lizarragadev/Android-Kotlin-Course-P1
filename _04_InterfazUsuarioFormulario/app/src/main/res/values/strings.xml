@@ -8,4 +8,12 @@
     <string name="password">Ingrese Contraseña</string>
     <string name="carnet">Ingrese C.I.</string>
     <string name="telefono">Ingrese Teléfono</string>
+    <string name="identificacion">Identificación</string>
+    <string name="femenino">Femenino</string>
+    <string name="masculino">Masculino</string>
+    <string name="nobinario">No Binario</string>]
+    <string name="observaciones">Observaciones</string>
+    <string name="intereses">Lenguajes de Interés</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
 </resources>
