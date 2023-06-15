@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ancho">83dp</dimen>
+    <dimen name="alto">85dp</dimen>
+    <dimen name="tamanio_texto">30sp</dimen>
+    <dimen name="numero">70sp</dimen>
+</resources>
